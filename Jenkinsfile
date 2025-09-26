@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USER = 'Pprachi1611'
+        DOCKERHUB_USER = 'prachi1602'
         IMAGE_NAME     = 'prachi_calculator'
         IMAGE_TAG      = "latest"
     }
@@ -40,7 +40,7 @@ pipeline {
             steps {
                 withCredentials([usernamePassword(
                     credentialsId: 'prachipatil-dockerhub-credential',
-                    usernameVariable: 'Prachi Patil',
+                    usernameVariable: 'prachi1602',
                     passwordVariable: 'Prachi1611'
                 )]) {
                     sh '''
