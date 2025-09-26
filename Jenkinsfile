@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USER = 'prachi1602'
+        DOCKERHUB_USER = 'Prachi Patil'
         IMAGE_NAME     = 'prachi_calculator'
         IMAGE_TAG      = "latest"
     }
